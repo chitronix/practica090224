@@ -1,14 +1,4 @@
 package com.mycompany.clasehoy;
-
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author repty
- */
 public class VISUALIZACION {
     usuario Espectador;
     video Video;
@@ -30,4 +20,4 @@ public class VISUALIZACION {
     public void setViewer (usuario Vierwer) {
             this.Espectador= Vierwer;
         }
-}  
+}
