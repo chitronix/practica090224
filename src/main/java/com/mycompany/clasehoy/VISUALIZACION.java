@@ -16,7 +16,7 @@ public class VISUALIZACION {
     }
     public VISUALIZACION (video video,usuario viewer) {
         this.Espectador= viewer;
-        this.Video= Video;
+        this.Video= video;
     }    
     public video getVideo() {
             return Video;
