@@ -10,5 +10,24 @@ package com.mycompany.clasehoy;
  * @author repty
  */
 public class VISUALIZACION {
-    
-}
+    usuario Espectador;
+    video Video;
+    public VISUALIZACION () {
+    }
+    public VISUALIZACION (video video,usuario viewer) {
+        this.Espectador= viewer;
+        this.Video= Video;
+    }    
+    public video getVideo() {
+            return Video;
+        }
+    public void setVideo (video Video) {
+            this.Video= Video;
+        }
+    public usuario getViewer() {
+            return Espectador;
+        }
+    public void setViewer (usuario Vierwer) {
+            this.Espectador= Vierwer;
+        }
+}  
